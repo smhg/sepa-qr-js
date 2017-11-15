@@ -1,6 +1,8 @@
 # sepa-qr-js
 Generates SEPA QR codes based on the [European Payments Council's standard](http://www.europeanpaymentscouncil.eu/index.cfm/knowledge-bank/epc-documents/quick-response-code-guidelines-to-enable-data-capture-for-the-initiation-of-a-sepa-credit-transfer/epc069-12-quick-response-code-guidelines-to-enable-data-capture-for-the-initiation-of-a-sepa-credit-transfer1/). These QR codes are scannable by many mobile banking apps.
 
+Uses [qr-image](https://github.com/alexeyten/qr-image) and forwards options for lower level QR manipulation.
+
 ## Installation
 ```bash
 npm install sepa-qr
