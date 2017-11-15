@@ -1,4 +1,5 @@
 # sepa-qr-js
+Generates SEPA QR codes based on the European Payments Council's standard. These QR codes are scannable by many mobile banking apps.
 
 ## Installation
 ```bash
