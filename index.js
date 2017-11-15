@@ -4,7 +4,7 @@ function createSepaQr (options = {}) {
   const {
     serviceTag = 'BCD',
     version = '002',
-    characterSet = 1,
+    characterSet = createSepaQr.UTF_8,
     identification = 'SCT',
     bic = '',
     name = '',
@@ -35,5 +35,14 @@ function createSepaQr (options = {}) {
     qrOptions
   );
 };
+
+createSepaQr.UTF_8 = 1;
+createSepaQr.ISO_8859_1 = 2;
+createSepaQr.ISO_8859_2 = 3;
+createSepaQr.ISO_8859_4 = 4;
+createSepaQr.ISO_8859_5 = 5;
+createSepaQr.ISO_8859_7 = 6;
+createSepaQr.ISO_8859_10 = 7;
+createSepaQr.ISO_8859_15 = 8;
 
 module.exports = createSepaQr;

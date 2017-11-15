@@ -24,14 +24,14 @@ createSepaQr({
 ### Options
 The options below relate to the SEPA standard. All other options are forwarded to **qr-image** (except for ec_level which is always `M`).
 
-#### serviceTag (default: 'BCD')
-#### version (default: '002')
-#### characterSet (default: 1)
-#### identification (default: 'SCT')
-#### bic (default: '')
-#### name (default: '')
+#### serviceTag (default: `'BCD'`)
+#### version (default: `'002'`)
+#### characterSet (default: `createSepaQr.UTF_8`)
+#### identification (default: `'SCT'`)
+#### bic (default: `''`)
+#### name (default: `''`)
 #### iban
-#### amount (default: 0.01)
-#### purpose (default: '')
-#### remittance (default: '')
-#### information (default: '')
+#### amount (default: `0.01`)
+#### purpose (default: `''`)
+#### remittance (default: `''`)
+#### information (default: `''`)
