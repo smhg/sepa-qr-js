@@ -18,7 +18,7 @@ function createSepaQr (options = {}) {
 
   qrOptions.ec_level = 'M';
 
-  const image = qr.image(
+  return qr.image(
     [
       serviceTag,
       version,
@@ -34,8 +34,6 @@ function createSepaQr (options = {}) {
     ].join('\n'),
     qrOptions
   );
-
-  return image;
 };
 
 module.exports = createSepaQr;
