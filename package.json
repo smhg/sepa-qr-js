@@ -1,0 +1,23 @@
+{
+  "name": "sepa-qr",
+  "version": "0.0.1",
+  "description": "Generate QR codes for SEPA payments",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smhg/sepa-qr-js.git"
+  },
+  "keywords": [
+    "sepa",
+    "qr"
+  ],
+  "author": "Sam Hauglustaine",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/smhg/sepa-qr-js/issues"
+  },
+  "homepage": "https://github.com/smhg/sepa-qr-js#readme"
+}
