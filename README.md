@@ -3,6 +3,8 @@ Generates SEPA QR codes based on the [European Payments Council's standard](http
 
 Uses [qr-image](https://github.com/alexeyten/qr-image) and forwards options for lower level QR manipulation.
 
+> The goal is to get this on par with [sepa-qr-php](https://github.com/smhg/sepa-qr-php), which should be quite feature-complete and tested (PRs appreciated).
+
 ## Installation
 ```bash
 npm install sepa-qr
